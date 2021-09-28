@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - JS Calculator </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Orbitron'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ek+Mukta'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--<div id="test" style="margin-top:50px; margin-left:50px;height:75px;width:50%;"></div>-->
+
+<div class="container-fluid">
+	<div class="row display">
+		<div class="col-xs-12">
+			<span id="memory"></span>
+		</div>
+		<div class="col-xs-12">
+			<div id="answer"></div>
+		</div>
+	</div>
+
+	<div class="row">
+		<!--div class="col-xs-3"><button class="clear" id="ce">CE</button></div>-->
+		<div class="col-xs-3"><button class="clear redbtn" id="ac">AC</button></div>	
+	</div>	
+	
+	<div class="row">
+		<div class="col-xs-3"><button class="num show">7</button></div>
+		<div class="col-xs-3"><button class="num show">8</button></div>		
+		<div class="col-xs-3"><button class="num show">9</button></div>
+		<div class="col-xs-3"><button class="operator show">/</button></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3"><button class="num show">4</button></div>
+		<div class="col-xs-3"><button class="num show">5</button></div>		
+		<div class="col-xs-3"><button class="num show">6</button></div>
+		<div class="col-xs-3"><button class="operator show">*</button></div>
+	</div>
+		<div class="row">
+		<div class="col-xs-3"><button class="num show">1</button></div>
+		<div class="col-xs-3"><button class="num show">2</button></div>		
+		<div class="col-xs-3"><button class="num show">3</button></div>
+		<div class="col-xs-3"><button class="operator show">-</button></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3"><button class="show" id="decimal">.</button></div>
+		<div class="col-xs-3"><button class="num show">0</button></div>		
+		<div class="col-xs-3"><button class="show" id="eq">=</button></div>
+		<div class="col-xs-3"><button class="operator show">+</button></div>
+
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script type="module" src="./script.js"></script>
+
+</body>
+</html>
